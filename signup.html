@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Visitor Sign Up</title>
+    <style>
+      /* CSS styles */
+      p {
+        text-align: center;
+        margin-top: 50px;
+        color: white;
+        font-size: 18px;
+        margin-top: -30px;
+      }
+      input[type="text"] {
+        width: 230px;
+        height: 40px;
+        margin-top: 20px;
+        display: block;
+      }
+      button {
+        width: 240px;
+        height: 30px;
+        margin-top: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        color: white;
+      }
+      button.signup {
+        background-color: #76dcba;
+      }
+      button.return {
+        background-color: #76dcba;
+      }
+
+      #parent {
+        display: flex;
+        background-color: rgb(65, 230, 222);
+        justify-content: center;
+        align-items: center;
+        margin-left: 400px;
+        margin-top: 100px;
+        flex-direction: column;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+        width: 400px;
+        height: 500px;
+      }
+    </style>
+  </head>
+  <body>
+	<div id="parent">
+		  <p>- Visitor -</p>
+   	 	<input type="text" placeholder="Full Name" name="name">
+   		<input type="text" placeholder="Email" name="email">
+      <input type="text" placeholder="Organization" name="organization">
+    	<button class="signup">SIGN UP</button>
+    	<button class="return">RETURN</button>
+	</div>
+  </body>
+</html>
